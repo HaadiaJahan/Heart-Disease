@@ -29,4 +29,4 @@ with col1:
 with col2:
     st.metric("Model Status", "✅ Loaded" if model_loaded else "❌ Not Found")
 with col3:
-    st.metric("Prediction", "Ready",
+    st.metric("Prediction", "Ready")
